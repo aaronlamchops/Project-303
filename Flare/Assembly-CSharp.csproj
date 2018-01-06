@@ -72,6 +72,12 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity 5.6.1f1.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Compile Include="Assets\Scripts\Controllers\Command\CommandFactory.cs" />
+ <Compile Include="Assets\Scripts\Controllers\Command\Command.cs" />
+ <Compile Include="Assets\Scripts\Controllers\Command\Invoker.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Scripts\Controllers\Command\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
