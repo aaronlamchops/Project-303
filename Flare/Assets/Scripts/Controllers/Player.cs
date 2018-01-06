@@ -11,16 +11,23 @@ public class Player : Figure {
 	// Use this for initialization
 	void Start () {
         maxHP = 50;
-        hp = maxHP;
-		
+        hp = maxHP;	
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void FixedUpdate () {
+        //Store the current horizontal input in moveHorizontal
+        float horizontalMove = Input.GetAxis("Horixontal");
+
+        float verticalMove = Input.GetAxis("Vertical");
+
+        //use the vertical and horizontal floats to create a new Vector
+        Vector2 movement = new Vector2(horizontalMove, verticalMove);
+
+        rigid2D.AddForce(movement * speed);
 	}
 
-    void AttemptMove ()
+    void Move ()
     {
 
 
