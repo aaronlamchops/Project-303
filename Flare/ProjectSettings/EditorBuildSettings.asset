@@ -4,4 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8d10da5e54f7a4d188f07aac968c619e
+  - enabled: 1
+    path: Assets/Scenes/OverWorld.unity
+    guid: 57a3dc3e9480f40199603cf2388200dd
+  - enabled: 1
+    path: Assets/Scenes/AboutScreen.unity
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/SettingsScreen.unity
+    guid: 00000000000000000000000000000000
