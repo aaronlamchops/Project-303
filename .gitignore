@@ -5,7 +5,7 @@
 [Oo]bj/
 [Bb]uild
 /[Bb]uilds/
-/[Ll]ibrary/
+New Unity Project/[Ll]ibrary/
 sysinfo.txt
 *.stackdump
 /Assets/AssetStoreTools*
@@ -21,7 +21,8 @@ sysinfo.txt
 /*.userprefs
 /*.csproj
 /*.meta
-/*.info
+/*.cs.info
+/*.cs.meta
 /*.pidb
 *.pidb.meta
 /*.suo
