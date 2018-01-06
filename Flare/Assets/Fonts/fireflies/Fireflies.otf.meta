@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 47230c119cced419e8325b00134e279e
+timeCreated: 1515214950
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Fireflies
+  fontNames:
+  - Fireflies
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3e309cd79b2a1437d8c47472a1ae56e0, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
