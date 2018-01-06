@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
+public class Player : Figure {
 
     private Hashtable skills = new Hashtable();
     private Hashtable inventory = new Hashtable();
+    private int maxHP;
 
 	// Use this for initialization
 	void Start () {
+        maxHP = 50;
+        hp = maxHP;
 		
 	}
 	
@@ -35,11 +38,13 @@ public class Player : MonoBehaviour {
 
     }
 
-   void TakeDamage()
+   void TakeDamage(int damage)
     {
+        hp -= damage;
     }
 
-    void Heal()
+    void Heal(int healPoints)
     {
+        hp += healPoints;
     }
 }
